@@ -1,6 +1,6 @@
 from Bio import SeqIO
 from Bio import Entrez
-Entrez.email="shijia.zhou@student.adelaide.edu.au"
+Entrez.email="##############################"
 genome_list=open('/home/leo/PycharmProjects/whispovirus/genomes/all_genomes.txt')
 for line in genome_list:
     record_id = line.lstrip('VERSION     ').strip('\n')
